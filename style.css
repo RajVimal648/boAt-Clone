@@ -1,0 +1,402 @@
+*
+{
+    margin: 0;
+    border: border-box;
+    font-family: 'Arial';
+
+}
+.header
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+    
+}
+.top
+{
+    height:40px;
+    background-color: #eff4f7;
+    display: flex;
+    font-size:1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top p{
+    
+}
+.top p span
+{
+    font-weight: 700;
+}
+
+.nav-logo
+{
+    height: 50px;
+    width: 150px;
+
+}
+.logo{
+    background-image: url("Images/boAt_logo2.png");
+    background-size:contain;
+    height: 60px;
+    max-width: 75%;
+}
+
+.nav-panel
+{
+    font-size: 1.4rem;   
+    margin-right: 200px;
+}
+.nav-panel a{
+    margin-left: 25px;
+    color: #222222;
+    text-decoration: none;   
+    transition: 0.3s;
+    padding:2px;
+}
+.nav-panel a:hover
+{
+    border-bottom: 3px solid red;
+    color: black;
+    font-weight: 200;
+}
+
+.search
+{
+    border: 0.5px solid white;
+    padding: 0.75rem;
+    background-color: #f4f5f7;
+    border-radius: 25px;
+    box-shadow: 2px 2px wheat;
+    width: 20%;
+}
+.search i
+{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.search input
+{
+    background-color: #f4f5f7;
+    padding-left: 5px;
+    border: none;
+    color:black;
+    font-size: 1.2rem;
+}
+.nav-end
+{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.nav-end-first
+{
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.nav-end-second
+{
+    padding-left: 15px;
+    padding-right: 55px;
+}
+.best-sellor
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box
+{
+    height: 450px;
+    width: 23%;
+    
+}
+.box-img
+{
+    height: 400px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+.box a{
+    color:#222222;
+    font-size: 1.2rem;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 30%;
+    font-weight: 600;
+}
+.head1
+{
+    margin: 20px;
+}
+.head1 h2 span 
+{
+    font-weight: 700;
+}
+.head1 h2 span span
+{
+    border-bottom:3px solid red;
+}
+.news
+{
+    background-image: url("Images/news.webp");
+    height: 130px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.news .left
+{
+    padding-top: 25px;
+    font-size: 2rem;
+}
+.Third_Panel
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Third_box
+{
+    height: 500px;
+    width: 23%;
+    margin-top: 1rem;
+    background-color: #e4e5e9;
+    border-radius:10px ;
+    margin-left: 2%;
+}
+.Third_box_img
+{
+    height: 400px;
+    background-size: cover;
+    
+    border-radius: 10px 10px 0px 0px;
+}
+.box_content
+{
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.box_content p span
+{
+    font-size: 20px;
+}
+.button
+{
+    align-items: end;
+    justify-content: flex-end;
+    margin-left: 30%;
+}
+.shop_by
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 2%;
+    padding-right: 25px;
+    margin-left: 25px;
+
+}
+.shop_by_content
+{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    color: #1a2024;
+    display: block;
+    text-align: center;
+    margin-left:2%;
+
+}
+.fifth
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+
+}
+.fifth_box
+{
+    height: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+.fifth_box img
+{
+    height: 120px;
+}
+.hero
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.hero_content h2
+{
+    text-align: center;
+    margin-top:10px;
+    font-weight: 650;
+    background-color: #eff4f7;
+}
+.hero_content a
+{
+    text-decoration: none;
+    color:#2f5b96;
+    align-items: center;
+    font-size: 14px;
+
+}
+.hero_content img
+{
+    height: 400px;
+
+}
+.hero_con{
+    padding: 20px;
+    background-color: #eff4f7;    
+    border-radius: 0px 0px 10px 10px;
+}
+.head2
+{
+    padding-top: 40px;
+    margin: 20px;
+    margin-left: 25px;
+}
+.head2 h2 span 
+{
+    font-weight: 700;
+}
+.head2 h2 span span
+{
+    border-bottom:3px solid red;
+}
+.nav2
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25px;
+    margin: 2%;
+}
+.nav2_items
+{
+    padding: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+    color: #c8caca;
+}
+.nav2 a
+{   
+    text-decoration: none;
+    color: black;
+}
+
+.nav2_active
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border-radius: 25px;
+    background-color: #ecf0f4;
+}
+footer
+{
+    display: inline;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.panel1{
+    height: 400px;
+    background-color: #eff4f7;
+    display: block;
+    justify-content: space-evenly;
+}
+.panel1 img{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 80px;
+}
+.panel1_content{
+    margin-left: 50px;
+}
+.panel1_content h2{
+    padding-top: 10px;
+    font-weight: 700;
+}
+.panel1_content input{
+    padding: 15px;
+    padding-right: 200px;
+    font-weight: 100;
+    border-radius: 10px;
+    border: none;
+}
+.foot-menu
+{
+    padding-top: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    
+}
+.foot-menu ul p
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+.foot-menu ul li 
+{
+    padding-top: 10px;
+    list-style: none;
+
+}
+.foot-menu ul li a
+{
+    padding-top: 10px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: #1a2024;
+
+}
+.foot2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    background-color: #e7f0f5;
+}
+.foot2 p
+{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 25px;
+    margin-top: 10px;
+
+}
+.foot2 i
+{
+    padding-right: 25px;
+    font-size: 16px;
+}
+.foot2 #cc
+{
+    color: grey;
+}
